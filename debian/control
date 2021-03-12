@@ -1,0 +1,12 @@
+Source: ros-melodic-denso-robot-core-test
+Section: misc
+Priority: optional
+Maintainer: DENSO WAVE INCORPORATED <fa-support@denso-wave.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-bcap-core, ros-melodic-catkin, ros-melodic-denso-robot-core, ros-melodic-roscpp, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/denso_robot_core_test
+Standards-Version: 3.9.2
+
+Package: ros-melodic-denso-robot-core-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-roscpp, ros-melodic-std-msgs
+Description: The denso robot core test package includes a node for testing denso robot core node.
