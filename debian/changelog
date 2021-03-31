@@ -1,0 +1,33 @@
+ros-melodic-denso-robot-ros (3.1.1-2bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 02 Mar 2021 15:00:00 -0000
+
+ros-melodic-denso-robot-ros (3.1.0-2bionic) bionic; urgency=high
+
+  * Add sensors_3d.yaml for Melodic
+  * Remove kinematics_solver_attempts for Melodic
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 22 Dec 2020 15:00:00 -0000
+
+ros-melodic-denso-robot-ros (3.0.4-2bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 26 Nov 2019 15:00:00 -0000
+
+ros-melodic-denso-robot-ros (3.0.3-2bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Sun, 22 Sep 2019 15:00:00 -0000
+
+ros-melodic-denso-robot-ros (3.0.2-2bionic) bionic; urgency=high
+
+  * Change descriptions and add url, author
+  * Contributors: MIYAKOSHI Yoshihiro
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Thu, 14 Dec 2017 15:00:00 -0000
+
+
