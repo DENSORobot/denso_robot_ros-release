@@ -1,3 +1,37 @@
+## denso_robot_ros (melodic) - 3.1.2-1
+
+The packages in the `denso_robot_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release denso_robot_ros --track melodic --rosdistro melodic` on `Fri, 02 Apr 2021 02:20:12 -0000`
+
+These packages were released:
+- `bcap_core`
+- `bcap_service`
+- `bcap_service_test`
+- `denso_robot_bringup`
+- `denso_robot_control`
+- `denso_robot_core`
+- `denso_robot_core_test`
+- `denso_robot_descriptions`
+- `denso_robot_gazebo`
+- `denso_robot_moveit_config`
+- `denso_robot_ros`
+
+Version of package(s) in repository `denso_robot_ros`:
+
+- upstream repository: https://github.com/DENSORobot/denso_robot_ros.git
+- release repository: https://github.com/DENSORobot/denso_robot_ros-release.git
+- rosdistro version: `3.1.1-1`
+- old version: `3.1.1-2`
+- new version: `3.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.1`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## denso_robot_ros (melodic) - 3.1.1-2
 
 The packages in the `denso_robot_ros` repository were released into the `melodic` distro by running `/usr/bin/bloom-release denso_robot_ros --track melodic --rosdistro melodic` on `Wed, 31 Mar 2021 08:47:57 -0000`
