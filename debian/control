@@ -1,0 +1,12 @@
+Source: ros-melodic-denso-robot-control
+Section: misc
+Priority: optional
+Maintainer: DENSO WAVE INCORPORATED <fa-support@denso-wave.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-bcap-core, ros-melodic-bcap-service, ros-melodic-catkin, ros-melodic-controller-manager, ros-melodic-denso-robot-core, ros-melodic-hardware-interface, ros-melodic-joint-limits-interface, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-transmission-interface
+Homepage: http://ros.org/wiki/denso_robot_control
+Standards-Version: 3.9.2
+
+Package: ros-melodic-denso-robot-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-bcap-core, ros-melodic-bcap-service, ros-melodic-controller-manager, ros-melodic-denso-robot-core, ros-melodic-hardware-interface, ros-melodic-joint-limits-interface, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-transmission-interface
+Description: The denso robot control package includes a node for controlling DENSO robot controllers with MoveIt!.
