@@ -1,0 +1,62 @@
+ros-melodic-denso-robot-core (3.3.0-1bionic) bionic; urgency=high
+
+  * Add supporting for COBOTTA PRO
+  * Add "ManualReset" to clear safety-state (previous command was "ResetStoState")
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Mon, 13 Feb 2023 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.2.0-1bionic) bionic; urgency=high
+
+  * Add "ResetStoState" to clear the STO state for RC9 and COBOTTA
+  * Add "ManualResetPreparation" to confirm safey-related command for COBOTTA
+  * Add "MotionPreparation" to execute Motion preparation for COBOTTA
+  * Add "AutoCal" to execute CALSET for COBOTTA
+  * Change "ClearError" to execute "ManualResetPreparation" first for COBOTTA
+  * Change most of the macros to constants
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 01 Jun 2021 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.1.2-1bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Thu, 01 Apr 2021 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.1.1-1bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 02 Mar 2021 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.1.0-1bionic) bionic; urgency=high
+
+  * Add supporting for RC9
+  * Add bcap_slave_control_cycle_msec
+  * Add 4 functions about error
+  * Upgrade tinyxml2 to official v3.0.0. for Melodic
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 22 Dec 2020 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.0.4-1bionic) bionic; urgency=high
+
+
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Tue, 26 Nov 2019 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.0.3-1bionic) bionic; urgency=high
+
+  * Change bCap service UDP timeout
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Sun, 22 Sep 2019 15:00:00 -0000
+
+ros-melodic-denso-robot-core (3.0.2-1bionic) bionic; urgency=high
+
+  * Add I/O function for denso_robot_core
+  * Remove new line from ROS_INFO,ROS_WARN,ROS_ERROR
+  * Change descriptions and add url, author
+  * Check the catkin_lint result
+  * Contributors: MIYAKOSHI Yoshihiro
+
+ -- DENSO WAVE INCORPORATED <fa-support@denso-wave.com>  Thu, 14 Dec 2017 15:00:00 -0000
+
+
