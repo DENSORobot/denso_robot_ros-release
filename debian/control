@@ -1,0 +1,12 @@
+Source: ros-melodic-denso-robot-gazebo
+Section: misc
+Priority: optional
+Maintainer: DENSO WAVE INCORPORATED <fa-support@denso-wave.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/denso_robot_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-melodic-denso-robot-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-denso-robot-descriptions, ros-melodic-gazebo-ros-control, ros-melodic-gazebo-ros-pkgs, ros-melodic-joint-state-controller, ros-melodic-joint-trajectory-controller, ros-melodic-robot-state-publisher
+Description: The denso robot gazebo package includes a launch file for simulating DENSO robot.
